@@ -130,7 +130,6 @@ nav  a {
     display: flex;
     justify-content: center;
     margin: 20px;
-    box shadow: 8px 8px 0 rgba(128,83,35,.2);
 }
 
 .create-org {
@@ -142,7 +141,6 @@ nav  a {
     cursor: pointer;
     font-weight: bold;
     text-align: right;
-    box shadow: 8px 8px 0 rgba(128,83,35,.2);
 }
 
 .org-header {
