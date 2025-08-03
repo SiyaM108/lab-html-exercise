@@ -1,0 +1,276 @@
+header > div {
+	padding: 0  25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.features {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.zero-configuration {
+    margin: auto;
+    padding: 25px;
+
+}
+
+.team-management {
+    margin: auto;
+    padding: 19.2px;
+
+
+}
+
+.familiar-features {
+    margin: auto;
+    padding: 25.7px;
+
+
+}
+
+.npm-audit {
+    margin: auto;
+    padding: 22.7px;
+
+
+}
+
+.npm-aud, .familiar-feats, .zero-conf, .team-man {
+    width: 10%;
+    color: rgba(0, 0, 0, 0.05);
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+nav {
+	width: 600px;
+}
+
+nav  ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav  a {
+	text-decoration: none;
+	color: black;
+}
+
+.blackHeart {
+	width: 20px;
+	margin-right: 1rem;
+}
+
+.form label {
+  color: rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input {
+  color: rgba(0, 0, 0, 0.05);
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.search-button {
+  background-color: #fb3e44;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form button:hover {
+  background-color: #e5373c;
+}
+
+.org-create {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    box shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
+
+.create-org {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: right;
+    box shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
+
+.org-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: lightyellow;
+}
+
+.org-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.org-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.see-plans {
+    background-color: #fb3e44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.create-org:hover {
+    background-color: #e5373c;
+}
+.see-plans:hover {
+    background-color: #e5373c;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    border-color: #fb3e44;
+}
+.buttons button {
+    background-color: #fb3e44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.buttons button:hover {
+    background-color: #e5373c;
+}
+
+.sub-heading {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightyellow;
+
+    font-size: 1.2rem;
+}
+
+.build {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightyellow;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.magnifying-glass {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.search {
+    --padding:14px;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background: #f6f6f6;
+    width: max-content
+}
+
+.search-packages {
+    font-size: 16px;
+    font-family: lexend, sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 600px;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.tri-hex {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
